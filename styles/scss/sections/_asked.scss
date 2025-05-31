@@ -1,0 +1,41 @@
+.asked {
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 48px;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:12px;
+        padding-bottom: 64px;
+        li {
+            list-style-type: none;
+            a {
+                font-family: DM Sans;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color:#777E90;
+                text-decoration: none;
+            }
+        }
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-left:240px;
+        margin-right: 240px;
+        margin-bottom: 112px;
+        a {
+            padding-bottom: 24px;
+            padding-top: 24px;
+            border-bottom: 1px solid #E6E8EC;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.Amazing {
+    padding-left: 60px;
+    padding-bottom: 136px;
+    .creat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+        padding-top: 8px;
+        padding-bottom: 32px;
+        }
+        button {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        color:#FCFCFD;
+        background-color: #3B71FE;
+        border-radius: 90px;
+        border: none;
+        padding: 16px 24px;
+        }
+ }
+       .revi {
+        max-width: 1440px;
+        display: flex;
+        gap:24px;
+        margin-top: 92px;
+        p {
+            max-width: 293px;
+        }
+        h4 {
+            padding-top: 32px;
+            padding-bottom: 16px;
+        }
+        div {
+            width: 357px;
+            padding: 64px 32px;
+            background-color: #F4F5F6;
+            border-radius: 20px;
+        }
+       }
+       @media (max-width:1024px) {
+       .revi {
+       overflow-x: scroll;
+       }
+       }
+       @media (max-width:375px){
+        .revi {
+        overflow-x: none;
+        display: flex;
+        flex-direction: column;
+        }
+       }
+}

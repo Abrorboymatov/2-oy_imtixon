@@ -1,0 +1,15 @@
+.london {
+    display: flex;
+    gap:32px;
+    padding-left: 60px;
+    margin-bottom: 48px;
+    @media (max-width:1024px){
+        overflow-x: scroll;
+    }
+    @media (max-width:375px){
+            overflow-x: none;
+            margin:0 32px;
+            display: flex;
+            flex-direction: column;
+    }
+    }

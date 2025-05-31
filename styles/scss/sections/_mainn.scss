@@ -1,0 +1,42 @@
+main {
+    background-repeat: no-repeat;
+    background-image: url(/assets/imgs/rasmm.jpg);
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        padding-top: 167px;
+    }
+    p {
+        color:#23262F;
+    }
+    button {
+       font-family: DM Sans;
+       font-weight: 700;
+       font-size: 16px;
+       line-height: 16px;
+       letter-spacing: 0%;
+       text-align: center;
+       color:#FCFCFD;
+       background-color: #3B71FE;
+       border-radius: 90px;
+       margin-top: 24px;
+       padding:16px 24px;
+       border: none;
+       margin-bottom: 337px;
+       cursor: pointer;
+    }
+    @media (max-width:1024px) {
+        main {
+           width: 944px; 
+        }
+    }
+    @media (max-width:375px) {
+        main {
+            padding: 0  16px;
+            width: 343px;
+        }
+    }
+}

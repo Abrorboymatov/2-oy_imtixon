@@ -1,0 +1,148 @@
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+}
+nav .Trav {
+  display: flex;
+  align-items: center;
+}
+nav .Lang {
+  display: flex;
+  align-items: center;
+}
+nav .Lang a {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #777E90;
+  text-decoration: none;
+}
+
+main {
+  background-repeat: no-repeat;
+  background-image: url(/assets/imgs/rasmm.jpg);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main h1 {
+  padding-top: 167px;
+}
+main p {
+  color: #23262F;
+}
+main button {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FCFCFD;
+  background-color: #3B71FE;
+  border-radius: 90px;
+  margin-top: 24px;
+  padding: 16px 24px;
+  border: none;
+  margin-bottom: 337px;
+  cursor: pointer;
+}
+
+.Pop {
+  padding: 0 60px;
+}
+.Pop .asse {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 228px;
+  padding-bottom: 12px;
+}
+.Pop .asset {
+  max-width: 1440px;
+  overflow: scroll;
+  display: flex;
+  padding-top: 48px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 100px;
+  padding: 0 auto;
+  background-color: #FCFCFD;
+}
+
+p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #777E90;
+}
+
+h1 {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+h2 {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  color: #23262F;
+}
+
+h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #23262F;
+}
+
+h4 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #23262F;
+}
+
+h5 {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #777E90;
+}
+
+h6 {
+  color: #B1B5C3;
+}/*# sourceMappingURL=main.css.map */
