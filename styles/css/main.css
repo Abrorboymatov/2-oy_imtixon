@@ -161,14 +161,12 @@ main button {
 }
 .super {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 32px;
   padding-left: 60px;
   margin-top: 136px;
   padding-bottom: 100px;
-}
-.super img {
-  max-width: 700px;
 }
 .super h2 {
   max-width: 448px;
@@ -201,8 +199,11 @@ main button {
 @media (max-width: 375px) {
   .super .super {
     flex-wrap: wrap;
-    display: flex;
+    display: initial;
     flex-direction: column;
+  }
+  .super .super img {
+    width: 573px;
   }
 }
 
@@ -211,6 +212,7 @@ main button {
   gap: 32px;
   padding-left: 60px;
   margin-bottom: 48px;
+  padding-top: 48px;
 }
 @media (max-width: 1024px) {
   .london {
@@ -541,20 +543,20 @@ footer button {
 }
 .container {
   max-width: 1440px;
-  margin: 0 100px;
-  padding: 0 auto;
+  margin: 0 auto;
+  padding: 0 100px;
   background-color: #FCFCFD;
 }
 @media (max-width: 1024px) {
   .container {
-    margin: 0 40px;
-    padding: 0 auto;
+    margin: 0 auto;
+    padding: 0 40px;
   }
 }
 @media (max-width: 375px) {
   .container {
-    margin: 0 17px;
-    padding: 0 auto;
+    margin: 0 auto;
+    padding: 0 17px;
   }
 }
 
@@ -657,11 +659,13 @@ h6 {
 }
 
 .nea {
+  padding-top: 48px;
   padding-bottom: 136px;
 }
 @media (max-width: 1024px) {
   .nea {
-    margin: 0 80px;
+    margin: 0 auto;
+    padding: 0 80px;
   }
 }
 

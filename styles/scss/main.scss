@@ -96,16 +96,16 @@
 
 .container {
     max-width: 1440px;
-    margin:0 100px;
-    padding: 0 auto;
+    margin:0 auto;
+    padding: 0 100px;
     background-color: #FCFCFD;
     @media (max-width:1024px) {
-        margin: 0 40px;
-        padding: 0 auto;
+        margin: 0 auto;
+        padding: 0 40px;
     }
     @media (max-width:375px){
-        margin: 0 17px;
-        padding: 0 auto;
+        margin: 0 auto;
+        padding: 0 17px;
     }
 }
 p {
@@ -191,9 +191,11 @@ h6 {
     }
 }
 .nea {
+    padding-top: 48px;
     padding-bottom: 136px;
     @media (max-width: 1024px) {
-    margin:0 80px;
+    margin:0 auto;
+    padding: 0 80px;
     }
 }
 .nea button {

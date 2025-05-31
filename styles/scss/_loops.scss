@@ -41,3 +41,11 @@ $light_dark_mode: (
     background-color: $value;
   }
 }
+$i: 10;
+
+@while $i <= 50 {
+  .m-#{$i} {
+    margin: #{$i}px;
+  }
+  $i: $i + 10;
+}
